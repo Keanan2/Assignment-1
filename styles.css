@@ -1,0 +1,9 @@
+.nav2 li {
+    display: inline-block;
+    margin-inline: 210px;
+    padding: 20px;
+}
+
+a {
+    color: white;
+}
