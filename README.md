@@ -1,2 +1,2 @@
-# my-new-repo
+# Assignment 1
 A new repo
