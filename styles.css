@@ -1,9 +1,15 @@
 .nav2 li {
-    display: inline-block;
-    margin-inline: 210px;
-    padding: 20px;
+  display: inline-block;
+  margin-inline: 210px;
+  padding: 20px;
 }
 
 a {
-    color: white;
+  color: white;
+}
+
+.page1 {
+  background-image: url("Page1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
