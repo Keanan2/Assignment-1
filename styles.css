@@ -13,3 +13,26 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+* {
+  box-sizing: border-box;
+}
+
+#Container {
+  text-align: center;
+}
+
+#left {
+  float: left;
+  margin-left: 150px;
+}
+
+#center {
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: 20px;
+}
+
+#right {
+  float: right;
+  margin-right: 150px;
+}
