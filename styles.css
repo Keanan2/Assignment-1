@@ -400,18 +400,24 @@ a {
   margin-right: 150px;
 }
 
+/* CSS for Read More Button */
 .text {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 24px;
 }
 
-.readmore {
+.moreText {
   display: none;
 }
 
-.ReadMoreButton {
-  padding: 15px 60px;
+.read-more-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  padding: 10px 30px;
   background-color: rgb(149, 170, 197);
   color: rgb(53, 49, 49);
   border: none;
@@ -420,6 +426,6 @@ a {
   cursor: pointer;
 }
 
-.text.show-more .readmore {
+.text.show-more .moreText {
   display: inline;
 }
