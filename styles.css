@@ -352,6 +352,7 @@ template {
 
 /* Start of actual CSS */
 
+/* Navigation Bar */
 .nav2 li {
   display: inline-block;
   margin-inline: 210px;
@@ -362,6 +363,7 @@ a {
   color: white;
 }
 
+/* CSS for the body of Main Pages */
 .page1 {
   background-image: url("Images/Page1.jpg");
   background-repeat: no-repeat;
@@ -396,4 +398,28 @@ a {
 #right {
   float: right;
   margin-right: 150px;
+}
+
+.text {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 24px;
+}
+
+.readmore {
+  display: none;
+}
+
+.ReadMoreButton {
+  padding: 15px 60px;
+  background-color: rgb(149, 170, 197);
+  color: rgb(53, 49, 49);
+  border: none;
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.text.show-more .readmore {
+  display: inline;
 }
