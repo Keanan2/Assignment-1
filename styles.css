@@ -379,25 +379,14 @@ a {
 * {
   box-sizing: border-box;
 }
-
 #Container {
-  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
 
-#left {
-  float: left;
-  margin-left: 150px;
-}
-
-#center {
-  display: inline-block;
-  margin: 0 auto;
-  margin-left: 20px;
-}
-
-#right {
-  float: right;
-  margin-right: 150px;
+.cert {
+  margin-top: 50px;
 }
 
 /* CSS for Read More Button */
@@ -456,4 +445,13 @@ textarea {
   outline: none;
   font-size: 20px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+  #Container {
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
