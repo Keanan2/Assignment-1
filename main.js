@@ -12,3 +12,7 @@ readMoreBtn.addEventListener('click',(e)=>{
         readMoreBtn.innerText = 'Read More';
     }
 })
+
+function myFunction() {
+    alert("Your message has been sent successfully!");
+  }

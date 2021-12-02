@@ -1,10 +1,16 @@
 # Assignment 1
 
+_Project Name and short description_ :
 Interactive Development Assignment 1
 
 This website is designed to showcase more about myself which includes some projects that i have done during my 1st semester in Ngee Ann as well as some acheivements that i have received throughout my educational journey.
 
+_Design Process_ :
 As for my design process, i aimed to design my website with the purpose of presenting myself in a good light to potential recruiters that are hiring applicants.
+
+_Credits_:
+
+Background Image : https://coolbackgrounds.io/
 
 Henry Park Primary School Logo : https://henryparkpri.moe.edu.sg/about-us/school-crest-and-school-song
 
